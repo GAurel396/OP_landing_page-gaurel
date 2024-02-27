@@ -1,1 +1,1 @@
-A tutorial project fr Odin's Project!
+A tutorial project for Odin's Project!
