@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     font-family: "Hero Secondary", Helvetica, sans-serif; 
     background-color: #DAD3D7;
+    margin: 0;
 }
 
 ul {
@@ -104,22 +105,125 @@ a {
     height: auto;
 }
 
+.show_off {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.show_off>.images_title {
+    font-size: 36px;
+    font-weight: 800;
+    flex: 1;
+    align-self: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img_desc {
+    display:flex;
+    justify-content: space-around;
+}
+
+.img_desc_t {
+    width: 20%;
+    height: auto;
+    text-align: center;
+    flex-shrink: 2;
+    font-style: italic;
+}
+
+.quote_block {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+}
+
+
+
+h2 {
+    display: flex;
+}
+
+img {
+    display: flex;
+}
+
+
+.show_off_img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 6px;
+
+}
 
 .quote_block {
     background-color: #94B893;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Quote {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote_name {
+    font-weight: 800;
+    font-size: 21px;
+    font-style: normal;
+    align-self: flex-end;
 }
 
 p {
-    margin: 6px;
+    margin: 0;
 }
+
+.calculator {
+    display: flex;
+    background-color: #266451;
+    margin: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: row;
+    color:#DAD3D7;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.calculator_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.calc_text_tit  {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
 
 .footer {
     display: flex;
     align-items: flex-end;
-    background-color: #266451;
+    background-color: #092010;
     color:#DAD3D7;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 12px;
+    padding-top: 15px;
 }
